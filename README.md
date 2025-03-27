@@ -10,7 +10,7 @@ A responsive React.js dashboard application with user authentication, data table
 - Account deletion
 - Responsive layout (mobile, tablet, desktop)
 - Interactive data table with:
-  - Sorting (ascending/descending)
+  - Sorting (Click on ID - For ascending/descending, Click on Author - For alphabetcial order)
   - Search/filter functionality
   - Pagination
 - Animated loading states
@@ -24,6 +24,7 @@ A responsive React.js dashboard application with user authentication, data table
 - React Router (navigation)
 - react-hot-toast (notifications)
 - dotLottie (animations)
+- https://dummyjson.com/quotes (Mock API for JSON data)
 
 ## Installation & Local Setup
 
