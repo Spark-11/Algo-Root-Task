@@ -16,11 +16,6 @@ A responsive React.js dashboard application with user authentication, data table
 - Animated loading states
 - Toast notifications for user feedback
 
-### Security (Demo Only)
-- Passwords hidden from session storage
-- Basic client-side validation
-- Note: This is a frontend demo only - not production secure
-
 ## Technologies Used
 
 - React.js
@@ -36,3 +31,9 @@ A responsive React.js dashboard application with user authentication, data table
    ```bash
    git clone https://github.com/Spark-11/Algo-Root-Task.git
    cd Algo-Root-Task
+2. **Install the dependencies**
+   ```bash
+   npm i
+3. **Run the development server**
+   ```bash
+   npm run dev
