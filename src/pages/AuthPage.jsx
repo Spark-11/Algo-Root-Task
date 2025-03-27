@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useAuth } from "../context/AuthContext";
+import { Link } from "react-router-dom";
 
 export default function AuthPage({ type }) {
   const { login, signup } = useAuth();
@@ -84,22 +85,22 @@ export default function AuthPage({ type }) {
           {type === "login" ? (
             <p>
               Don't have an account?{" "}
-              <a
-                href="/signup"
+              <Link
+                to="/signup"
                 className="text-blue-500 hover:underline font-medium transition duration-700 ease-in-out"
               >
                 Sign up
-              </a>
+              </Link>
             </p>
           ) : (
             <p>
               Already have an account?{" "}
-              <a
-                href="/login"
+              <Link
+                to="/login"
                 className="text-blue-500 hover:underline transistion duration-700 ease-in-out"
               >
                 Login
-              </a>
+              </Link>
             </p>
           )}
         </div>
